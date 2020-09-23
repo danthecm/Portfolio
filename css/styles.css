@@ -489,6 +489,19 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+.portfolio-item-individual p a{
+  color: var(--clr-accent);
+  font-size: 1.2rem;
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+}
+.portfolio-item-individual p a:hover{
+  color: var(--clr-accent);
+  font-size: 1.2rem;
+  font-weight: var(--fw-bold);
+  text-decoration: underline;
+}
+
 .portfolio-item-individual img{
   max-width: 600px;
   margin-left: auto;
